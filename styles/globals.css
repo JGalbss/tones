@@ -1,26 +1,17 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@layer base {
 
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+  @font-face {
+    font-family: 'Daydream';
+    src: url('../lib/fonts/Daydream.ttf') format('truetype');
   }
-  body {
-    color: white;
-    background: black;
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('../lib/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
   }
+
 }
