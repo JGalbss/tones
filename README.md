@@ -1,4 +1,4 @@
-ai music reccomendation webapp + whatever it grows into 
+ai music recomendation webapp + whatever it grows into 
 
 ## Getting Started
 
